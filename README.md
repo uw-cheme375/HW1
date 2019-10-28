@@ -8,15 +8,16 @@ Note: Use Excel for all problems.  Remember that on all Excel assignments, **som
 
 In the first worksheet in the workbook complete the following.  The rate of heat transfer (q) from a heated flat plate with a cool fluid stream flowing across it can be found by:
 
-<img src="https://latex.codecogs.com/gif.latex?q&space;=&space;h&space;\Delta&space;T" title="q = h \Delta T" />
+<img src="https://latex.codecogs.com/gif.latex?q&space;=&space;h&space;\Delta&space;T" title="q = h \Delta T" class="center" />
 
 where h is the heat transfer coefficient and $\Delta T$ is the change in temperature between the cool fluid and the plate.  The heat transfer coefficient is related to Nu, the dimensionless Nusselt number, through
 
-Nu=  hL/k=0.332 ∛Pr √Re
+<img src="https://latex.codecogs.com/gif.latex?Nu&space;=&space;\frac{hL}{k}&space;=&space;0.332&space;\sqrt[3]{Pr}\sqrt{Re}" title="Nu = \frac{hL}{k} = 0.332 \sqrt[3]{Pr}\sqrt{Re}" class="center" />
 
 where L is the plate length, k is the fluid’s thermal conductivity, Pr is the dimensionless Prandtl number and Re the dimensionless Reynolds number.
 
-The last two quantities are calculated according to Re=  ρLv/μ  and (μc_p)/k  where μ is the fluid viscosity, cp is the fluid heat capacity, v is the fluid velocity and ρ is the density of the fluid.
+The last two quantities are calculated according to <img src="https://latex.codecogs.com/gif.latex?Re&space;=&space;\frac{\rho&space;L}{\mu}" title="Re = \frac{\rho L}{\mu}" />  and <img src="https://latex.codecogs.com/gif.latex?Pr&space;=&space;\frac{\mu&space;c_P}{k}" title="Pr = \frac{\mu c_P}{k}" />  where μ is the fluid viscosity, cp is the fluid heat capacity, v is the fluid velocity and ρ is the density of the fluid.
+
 What is the heat transfer rate, in W/m2, from a flat plate 2 meter long and temperature 343 K, if a stream of water passes over it at a velocity of 1.45 meters per second? The temperature of the water is 294 K, the. Water properties are: μ = 9.79x10-4 Pas, ρ = 998 kg/m3, k = 0.601 Wm-1K-1, and cp = 4.18x103 Jkg-1K-1.
 
 Hint: Begin by giving all the known quantities names, then calculate Nu.  h can be obtained once Nu is known.
