@@ -8,7 +8,7 @@ Note: Use Excel for all problems.  Remember that on all Excel assignments, **som
 
 In the first worksheet in the workbook complete the following.  The rate of heat transfer (q) from a heated flat plate with a cool fluid stream flowing across it can be found by:
 
-$$q = h  \Delta T$$
+<img src="https://latex.codecogs.com/gif.latex?q&space;=&space;h&space;\Delta&space;T" title="q = h \Delta T" />
 
 where h is the heat transfer coefficient and $\Delta T$ is the change in temperature between the cool fluid and the plate.  The heat transfer coefficient is related to Nu, the dimensionless Nusselt number, through
 
@@ -58,4 +58,4 @@ Generate a plot that shows the measured temperature values on one plot and the h
 
 ## Problem 5 (20 points)
 
-For each of the following problems, on a worksheet entitled Functions, allow input of the independent variable, x, in one column. In a second column, show the function in text. In a third, show the value of the function. 
+For each of the following problems, on a worksheet entitled Functions, allow input of the independent variable, x, in one column. In a second column, show the function in text. In a third, show the value of the function.
